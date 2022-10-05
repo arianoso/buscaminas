@@ -1,0 +1,80 @@
+    * {
+      transition: all 1s;
+      box-sizing: border-box;
+    }
+
+    body {
+      text-align: center;
+      font-family: calibri;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      background: #457bdf88;
+    }
+
+    body.color{
+      background: #4C4C4C;
+  }
+
+
+    table {
+      background: slategray;
+      margin: 20px auto;
+    }
+
+    td {
+      border: rgba(0, 0, 0, 0.25) 1px solid;
+      text-align: center;
+      font-size: 120%;
+      color: white;
+    }
+
+    #juego-nuevo,
+    td,
+    #minas,
+    #Ajustes {
+      box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.5),
+        inset -3px -3px 0 0 rgba(0, 0, 0, 0.5);
+    }
+
+    #juego-nuevo,
+    #minas,
+    #Ajustes {
+      padding: 10px;
+      margin: 10px;
+    }
+
+    #juego-nuevo {
+      background: #05C1CA;
+      cursor: pointer;
+    }
+
+    body.color #juego-nuevo{
+      background: #02494F;
+      color: white;
+    }
+
+    #minas {
+      background: #00000093;
+      color: rgb(255, 255, 255);
+    }
+
+    #Ajustes {
+      background: #eee;
+      cursor: pointer;
+    }
+
+    .semi-circulo{
+      width: 100px; 
+      height: 50px; 
+      background: #4C4C4C;
+      border: 2px solid #555; 
+      -moz-border-radius: 100px 100px 0 0;
+      -webkit-border-radius: 100px 100px 0 0;
+      border-radius: 100px 100px 0 0;
+      cursor: pointer;
+ }
+
+ body.color .semi-circulo{ 
+  background:  #457bdf88;
+}
